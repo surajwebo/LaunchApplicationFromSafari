@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB8023F2165DF2AC004A7B97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8023F1165DF2AC004A7B97 /* UIKit.framework */; };
+		FB8023F4165DF2AC004A7B97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8023F3165DF2AC004A7B97 /* Foundation.framework */; };
+		FB8023F6165DF2AC004A7B97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8023F5165DF2AC004A7B97 /* CoreGraphics.framework */; };
+		FB8023FC165DF2AC004A7B97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8023FA165DF2AC004A7B97 /* InfoPlist.strings */; };
+		FB8023FF165DF2AC004A7B97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8023FE165DF2AC004A7B97 /* main.m */; };
+		FB802402165DF2AC004A7B97 /* OpenNativeAppFromSafariAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB802401165DF2AC004A7B97 /* OpenNativeAppFromSafariAppDelegate.m */; };
+		FB802405165DF2AC004A7B97 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB802403165DF2AC004A7B97 /* MainWindow.xib */; };
+		FB802408165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB802407165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.m */; };
+		FB80240B165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB802409165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB8023ED165DF2AC004A7B97 /* OpenNativeAppFromSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenNativeAppFromSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8023F1165DF2AC004A7B97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB8023F3165DF2AC004A7B97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB8023F5165DF2AC004A7B97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB8023F9165DF2AC004A7B97 /* OpenNativeAppFromSafari-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenNativeAppFromSafari-Info.plist"; sourceTree = "<group>"; };
+		FB8023FB165DF2AC004A7B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB8023FD165DF2AC004A7B97 /* OpenNativeAppFromSafari-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenNativeAppFromSafari-Prefix.pch"; sourceTree = "<group>"; };
+		FB8023FE165DF2AC004A7B97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB802400165DF2AC004A7B97 /* OpenNativeAppFromSafariAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenNativeAppFromSafariAppDelegate.h; sourceTree = "<group>"; };
+		FB802401165DF2AC004A7B97 /* OpenNativeAppFromSafariAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenNativeAppFromSafariAppDelegate.m; sourceTree = "<group>"; };
+		FB802404165DF2AC004A7B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FB802406165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenNativeAppFromSafariViewController.h; sourceTree = "<group>"; };
+		FB802407165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenNativeAppFromSafariViewController.m; sourceTree = "<group>"; };
+		FB80240A165DF2AC004A7B97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/OpenNativeAppFromSafariViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8023EA165DF2AC004A7B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8023F2165DF2AC004A7B97 /* UIKit.framework in Frameworks */,
+				FB8023F4165DF2AC004A7B97 /* Foundation.framework in Frameworks */,
+				FB8023F6165DF2AC004A7B97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8023E2165DF2AC004A7B97 = {
+			isa = PBXGroup;
+			children = (
+				FB8023F7165DF2AC004A7B97 /* OpenNativeAppFromSafari */,
+				FB8023F0165DF2AC004A7B97 /* Frameworks */,
+				FB8023EE165DF2AC004A7B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8023EE165DF2AC004A7B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8023ED165DF2AC004A7B97 /* OpenNativeAppFromSafari.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8023F0165DF2AC004A7B97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB8023F1165DF2AC004A7B97 /* UIKit.framework */,
+				FB8023F3165DF2AC004A7B97 /* Foundation.framework */,
+				FB8023F5165DF2AC004A7B97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB8023F7165DF2AC004A7B97 /* OpenNativeAppFromSafari */ = {
+			isa = PBXGroup;
+			children = (
+				FB802400165DF2AC004A7B97 /* OpenNativeAppFromSafariAppDelegate.h */,
+				FB802401165DF2AC004A7B97 /* OpenNativeAppFromSafariAppDelegate.m */,
+				FB802403165DF2AC004A7B97 /* MainWindow.xib */,
+				FB802406165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.h */,
+				FB802407165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.m */,
+				FB802409165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.xib */,
+				FB8023F8165DF2AC004A7B97 /* Supporting Files */,
+			);
+			path = OpenNativeAppFromSafari;
+			sourceTree = "<group>";
+		};
+		FB8023F8165DF2AC004A7B97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8023F9165DF2AC004A7B97 /* OpenNativeAppFromSafari-Info.plist */,
+				FB8023FA165DF2AC004A7B97 /* InfoPlist.strings */,
+				FB8023FD165DF2AC004A7B97 /* OpenNativeAppFromSafari-Prefix.pch */,
+				FB8023FE165DF2AC004A7B97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8023EC165DF2AC004A7B97 /* OpenNativeAppFromSafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB80240E165DF2AC004A7B97 /* Build configuration list for PBXNativeTarget "OpenNativeAppFromSafari" */;
+			buildPhases = (
+				FB8023E9165DF2AC004A7B97 /* Sources */,
+				FB8023EA165DF2AC004A7B97 /* Frameworks */,
+				FB8023EB165DF2AC004A7B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenNativeAppFromSafari;
+			productName = OpenNativeAppFromSafari;
+			productReference = FB8023ED165DF2AC004A7B97 /* OpenNativeAppFromSafari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8023E4165DF2AC004A7B97 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FB8023E7165DF2AC004A7B97 /* Build configuration list for PBXProject "OpenNativeAppFromSafari" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB8023E2165DF2AC004A7B97;
+			productRefGroup = FB8023EE165DF2AC004A7B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8023EC165DF2AC004A7B97 /* OpenNativeAppFromSafari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8023EB165DF2AC004A7B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8023FC165DF2AC004A7B97 /* InfoPlist.strings in Resources */,
+				FB802405165DF2AC004A7B97 /* MainWindow.xib in Resources */,
+				FB80240B165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8023E9165DF2AC004A7B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8023FF165DF2AC004A7B97 /* main.m in Sources */,
+				FB802402165DF2AC004A7B97 /* OpenNativeAppFromSafariAppDelegate.m in Sources */,
+				FB802408165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB8023FA165DF2AC004A7B97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8023FB165DF2AC004A7B97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB802403165DF2AC004A7B97 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB802404165DF2AC004A7B97 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FB802409165DF2AC004A7B97 /* OpenNativeAppFromSafariViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB80240A165DF2AC004A7B97 /* en */,
+			);
+			name = OpenNativeAppFromSafariViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB80240C165DF2AC004A7B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB80240D165DF2AC004A7B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FB80240F165DF2AC004A7B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenNativeAppFromSafari/OpenNativeAppFromSafari-Prefix.pch";
+				INFOPLIST_FILE = "OpenNativeAppFromSafari/OpenNativeAppFromSafari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB802410165DF2AC004A7B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenNativeAppFromSafari/OpenNativeAppFromSafari-Prefix.pch";
+				INFOPLIST_FILE = "OpenNativeAppFromSafari/OpenNativeAppFromSafari-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8023E7165DF2AC004A7B97 /* Build configuration list for PBXProject "OpenNativeAppFromSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB80240C165DF2AC004A7B97 /* Debug */,
+				FB80240D165DF2AC004A7B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB80240E165DF2AC004A7B97 /* Build configuration list for PBXNativeTarget "OpenNativeAppFromSafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB80240F165DF2AC004A7B97 /* Debug */,
+				FB802410165DF2AC004A7B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8023E4165DF2AC004A7B97 /* Project object */;
+}
