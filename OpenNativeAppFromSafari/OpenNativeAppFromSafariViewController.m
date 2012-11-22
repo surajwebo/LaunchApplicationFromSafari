@@ -47,6 +47,6 @@
 }
 
 - (IBAction)launchSafari:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://192.168.0.104/~NeerajKapoor/Open_App_from_Safari.html"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://192.168.0.104/Open_App_from_Safari.html"]];
 }
 @end
